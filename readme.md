@@ -56,3 +56,12 @@ git commit -m'本次提交内容描述'
 ```bash
 git log
 ```
+
+# git和github
+> github https://gighub.com<br/>
+这是一个网站（一个开源的源代码管理平台），用户注册后，可以在自己的账户下创建仓库，用来管理项目的源代码（源代码基于git传到平台中）<br/>
+```bash
+git remote -v   #查看本地仓库和哪个远程仓库在保持连接
+git remote add origin [本地仓库]
+```
+
