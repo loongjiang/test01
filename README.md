@@ -74,10 +74,12 @@ origin  https://github.com/loongjiang/test01.git (fetch)
 origin  https://github.com/loongjiang/test01.git (push)
 
 # 从远程仓库指定分支拉取并合并到本地仓库当前版本（pull = fetch+merge）
-$ git pull orgin master   # 此处，git pusll 是命令， origin是远程主机名， master是分支名 （github会默认创建该master主分支）
+# 此处，git pusll 是命令， origin是远程主机名， master是分支名 （github会默认创建该master主分支）
+$ git pull orgin master
 
 # 将本地仓库指定分支的当前版本，推送到远程仓库的指定分支中去
-$ git push origin master:master # 此处，git push 是命令， origin是远程主机名， 第一个master是本地分支名，第二个master是远程分支名
+# 此处，git push 是命令， origin是远程主机名， 第一个master是本地分支名，第二个master是远程分支名
+$ git push origin master:master
 ```
 
 
